@@ -195,6 +195,7 @@ margin: 0 auto;
   background-color: #f7f6f2;
   padding: 80px 140px;
   text-align: center;
+  margin: 0 120px 120px 120px;
 }
 #think .think-container h2{
   font-style: bold;
@@ -205,4 +206,30 @@ margin: 0 auto;
   color: #627382;
   line-height: 24px;
  
+}
+footer{
+  background-color: #001931;
+}
+footer .social{
+   margin:120px 120px 80px 120px; 
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+footer .social h4{
+  width: 113px;
+  font-size:28pxpx;
+  color: #f7f6f2;
+}
+footer .social .icons{
+  display: flex;
+  gap: 16pxpx;
+}
+footer p{
+  text-align: center;
+  color: #f7f6f2;
+
+}
+footer .ff{
+  margin-bottom: 30px;
 }
